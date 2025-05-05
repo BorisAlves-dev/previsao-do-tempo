@@ -1,0 +1,42 @@
+.container-5days {
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: rgba(237, 248, 247, 0.185);
+  border-radius: 10px;
+}
+h3 {
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.weather-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.keys {
+  text-align: center;
+  background-color: rgba(132, 215, 253, 0.377);
+  box-shadow: 5px 5px 10px 0px rgba(64, 162, 207, 0.247);
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.171);
+}
+
+.date-days {
+  color: rgb(20, 20, 20);
+  text-transform: capitalize;
+}
+.description-info {
+  color: rgb(59, 57, 57);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.temp-max-min {
+  color: rgb(96, 97, 97);
+  text-transform: capitalize;
+}
